@@ -20,6 +20,7 @@ header > div {
 .logo {
     width: 200px;
     float: left;
+    flex-flow: wrap row;
 }
 
 .opcion1 {
@@ -67,8 +68,8 @@ i {
 
 .buscador{
     display: flex;
-    flex-flow:row;
-    margin-right: 900px;
+    justify-content: center;
+    flex-flow: wrap row;
 }
 
 #Buscador {
@@ -150,12 +151,12 @@ hr {
 
 .cuadrado {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap row;
 }
 
 .division {
     display: flex;
-    flex-flow: row  ;
+    flex-flow: wrap row;
     justify-content: flex-start;
 }
 
@@ -171,6 +172,7 @@ hr {
 
 #puntito{
     color: gold;
+    flex-flow: wrap row;
 }
 
 .mundo {
@@ -179,15 +181,15 @@ hr {
 
 .blocardo {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap row;
     background-color: #005d84;
 }
 
 .bloque {
     display: flex;
     flex-flow: column;
+    flex-flow: wrap row;
     justify-content: center;
-    margin-left: 400px;
 }
 
 #link {
@@ -196,11 +198,12 @@ hr {
 
 #footer{
     background-color: #e1e1e1;
+    flex-flow: wrap row;
 }
 
 .contenedor{
     display:flex;
-    flex-flow: row ;
+    flex-flow: wrap row;
 }
 
 .telefono {
@@ -226,7 +229,7 @@ hr {
 
 .login{
     display: flex;
-    flex-flow: row ;
+    flex-flow: wrap row;
     flex-grow: 0.15;
     justify-content: space-between;
     align-items: center;
@@ -260,7 +263,7 @@ hr {
 body > div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
     gap: 10px 30px;
 }
 
